@@ -1,0 +1,35 @@
+/* MarqueeBar.module.css */
+
+.marqueeContainer {
+    background-color: slategray;
+    padding: 10px;
+}
+
+.marqueeLink {
+    color: #00aaff; /* Updated link color for a brighter appearance */
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.2s ease;
+}
+
+.marqueeLink:hover {
+    color: #fff;
+}
+
+.linkSpacer {
+    margin-right: 20px;
+}
+
+.linkGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkSeparator {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #00aaff;
+}

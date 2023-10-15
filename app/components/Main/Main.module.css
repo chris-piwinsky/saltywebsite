@@ -1,0 +1,41 @@
+.myHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.myParagraph {
+  font-size: 1.25rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.mainContainer {
+  justify-content: space-between;
+}
+
+.textContainer {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.imageContainer {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+
+/* Default styles for larger screens */
+.responsiveImage {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for screens with a maximum width of 600px (adjust as needed) */
+@media screen and (max-width: 768px) {
+  .responsiveImage {
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,38 @@
+/* ContactPage.module.css */
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    color: #333; /* Change to your desired header color */
+  }
+  
+  .paragraph {
+    color: #666; /* Change to your desired paragraph color */
+  }
+  
+  .contact-method {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contact-icon {
+    color: #ff8800; /* Change to your desired icon color */
+  }
+  
+  .contact-link {
+    color: #333; /* Change to your desired link color */
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
