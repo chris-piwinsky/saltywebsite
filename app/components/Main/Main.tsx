@@ -12,7 +12,6 @@ const Main = () => {
             <h1 className={styles.myHeading}>The Salty Curmudgeons</h1>
             <p className={styles.myParagraph}>
               Three entertaining guys sharing life experiences and thoughts on culture, lifestyle, current events, and sports.
-              {/* Add your paragraphs here */}
             </p>
           </div>
         </div>

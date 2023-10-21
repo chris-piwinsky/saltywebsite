@@ -1,0 +1,63 @@
+/* Platforms.module.css */
+
+/* About Us Section */
+.aboutSection {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .aboutSection h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .aboutSection p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Podcast Platforms Section */
+  .platformsSection {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .platformsSection h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .platformsSection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .platformsSection li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .platformsSection a {
+    text-decoration: none;
+    color: #0077b5;
+    transition: color 0.3s;
+  }
+  
+  .platformsSection a:hover {
+    color: #ff4500;
+  }
+  
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .characterContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .characterImage {
+        max-width: 80%;
+    }
+}

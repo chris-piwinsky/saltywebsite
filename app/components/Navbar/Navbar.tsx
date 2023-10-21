@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
             <Link href="/about">The Curmudgeons</Link>
           </li>
           <li className='hover:text-[#CEFF00]'>
-            <Link href="/contact">Contact</Link>
+            <Link href="/platforms">Podcast</Link>
           </li>
         </ul>
 
