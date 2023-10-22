@@ -1,3 +1,6 @@
+/* Main.module.css */
+
+/* Styling for the Main component */
 .myHeading {
   font-size: 2rem;
   font-weight: bold;
@@ -22,9 +25,8 @@
 
 .imageContainer {
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: 20px; /* Add margin between the image and the content */
 }
-
 
 /* Default styles for larger screens */
 .responsiveImage {
@@ -38,4 +40,42 @@
   .responsiveImage {
     max-width: 80%;
   }
+}
+
+/* Styling for the Podcast Section */
+.podcastSection {
+  background-color: transparent; /* Make the background transparent */
+  border: none; /* Remove border */
+  padding: 0; /* No padding */
+  border-radius: 0; /* No border radius */
+  box-shadow: none; /* No box shadow */
+  font-size: 1.25rem; /* Adjust font size to match existing styles */
+  color: #666; /* Adjust font color to match existing styles */
+  line-height: 1.5; /* Adjust line height to match existing styles */
+  margin-top: 20px; /* Add margin between the podcast section and the content */
+}
+
+.podcastSection h2 {
+  font-size: 1.5rem; /* Adjust font size to match existing styles */
+  margin-bottom: 0.5rem; /* Adjust margin to match existing styles */
+}
+
+.podcastSection ul {
+  list-style-type: disc; /* Add bullet points (disc) in front of list items */
+  padding: 0;
+  margin-left: 1rem; /* Create some space between the bullets and the text */
+}
+
+.podcastSection li {
+  margin-bottom: 0.5rem; /* Adjust margin to match existing styles */
+}
+
+.podcastSection a {
+  text-decoration: underline; /* Add underline to links to match existing styles */
+  color: #3498db; /* Adjust link color to match existing styles */
+  transition: color 0.3s;
+}
+
+.podcastSection a:hover {
+  color: #ff5722;
 }

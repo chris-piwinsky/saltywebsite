@@ -40,26 +40,23 @@ const Navbar: React.FC = () => {
 
         {/* Centered Navigation Links */}
         <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
-          <li className='mr-4 lg:mr-8 hover:text-[#CEFF00]'>
+          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="/">Home</Link>
           </li>
-          <li className='mr-4 lg:mr-8 hover:text-[#CEFF00]'>
+          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="/about">The Curmudgeons</Link>
-          </li>
-          <li className='hover:text-[#CEFF00]'>
-            <Link href="/platforms">Podcast</Link>
           </li>
         </ul>
 
         <div className='hidden md:flex'>
           <div className='flex'>
-            <a href={companyEmail} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#CEFF00]'>
+            <a href={companyEmail} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#ff5722]'>
               <Mail size={25} />
             </a>
-            <a href={facebookLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#CEFF00]'>
+            <a href={facebookLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#ff5722]'>
               <Facebook size={25} />
             </a>
-            <a href={instagramLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#CEFF00]'>
+            <a href={instagramLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#ff5722]'>
               <Instagram size={25} />
             </a>
           </div>
@@ -68,9 +65,9 @@ const Navbar: React.FC = () => {
         {/* smaller screens - navigation icons */}
         <div onClick={handleSmallerScreenNavigation} className='flex md:hidden'>
           {menuIcon ?
-            (<AiOutlineClose size={25} className='text-[#CEFF00]' />)
+            (<AiOutlineClose size={25} className='text-[#ff5722]' />)
             :
-            (<AiOutlineMenu size={25} className='text-[CEFF00]' />)
+            (<AiOutlineMenu size={25} className='text-[ff5722]' />)
           }
         </div>
 
@@ -82,26 +79,23 @@ const Navbar: React.FC = () => {
         }>
           <div>
             <ul className='uppercase font-bold text-2xl'>
-              <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#CEFF00] cursor-pointer'>
+              <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
                 <Link href="/">Home</Link>
               </li>
-              <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#CEFF00] cursor-pointer'>
-                <Link href="/about">About</Link>
-              </li>
-              <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#CEFF00] cursor-pointer'>
-                <Link href="/contact">Contact</Link>
+              <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
+                <Link href="/about">The Curmudgeons</Link>
               </li>
             </ul>
           </div>
 
           <div className='flex flex-col justify-center items-center mt-16'>
-            <a href={companyEmail} target="_blank" rel="noopener noreferrer" className='py-5'>
+            <a href={companyEmail} target="_blank" rel="noopener noreferrer" className='py-5 hover-red-text' >
               <Mail size={25} />
             </a>
-            <a href={facebookLink} target="_blank" rel="noopener noreferrer" className='py-5'>
+            <a href={facebookLink} target="_blank" rel="noopener noreferrer" className='py-5 hover-red-text'>
               <Facebook size={25} />
             </a>
-            <a href={instagramLink} target="_blank" rel="noopener noreferrer" className='py-5'>
+            <a href={instagramLink} target="_blank" rel="noopener noreferrer" className='py-5 hover-red-text'>
               <Instagram size={25} />
             </a>
           </div>
