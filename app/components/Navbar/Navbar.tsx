@@ -76,6 +76,14 @@ const Navbar: React.FC = () => {
           :
           'md:hidden absolute top-[100px] right-0 left-[-100%] flex flex-col justify-center items-center w-full h-screen bg-slate-800 text-white ease-in duration-300'
         }>
+          <span className='font-extrabold text-3x1 md:text-2x1 xl:text-3x1 uppercase'>
+            <Image
+              src={navImage}
+              alt="Logo"
+              width={200}
+              height={100}
+            />
+          </span>
           <div>
             <ul className='uppercase font-bold text-2xl'>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
