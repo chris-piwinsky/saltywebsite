@@ -16,7 +16,7 @@
 
 /* Apply a smooth gradient background */
 body {
-  background: linear-gradient(135deg, #f7f8fa, #e0e6ed);
+  background: linear-gradient(135deg, white, white);
   margin: 0; /* Remove default margin */
   padding: 1rem; /* Add some padding */
   font-family: Arial, sans-serif; /* Specify a font family */
