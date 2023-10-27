@@ -10,7 +10,7 @@ import styles from './Navbar.module.css';
 
 const companyEmail = "mailto:thesaltycurmudgeons@gmail.com";
 const facebookLink = "https://www.facebook.com/thesaltycurmudgeons";
-const instagramLink = "https://www.instagram.com/thesaltycurmudgeons/
+const instagramLink = "https://www.instagram.com/thesaltycurmudgeons";
 
 const Navbar: React.FC = () => {
   const [menuIcon, setIcon] = useState(false);
