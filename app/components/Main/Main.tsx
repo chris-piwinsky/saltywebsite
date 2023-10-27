@@ -13,7 +13,7 @@ const Main = () => {
               Coming THIS NOVEMBER to a podcast near you
             </p>
             <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>
-              Three entertaining guys sharing life experiences and thoughts on culture, lifestyle, current events, and sports.
+              Not afraid to speak their minds, the Salty Curmudgeons share their wisdom & thoughts on culture, lifestyle, current events, and sports.  Sometimes controversial and always entertaining, our conversations are geared to make you laugh, think, and sometimes feel a little salty!
             </p>
           </div>
           <div className={`${styles.podcastSection}`}>

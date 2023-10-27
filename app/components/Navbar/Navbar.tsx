@@ -8,10 +8,9 @@ import navImage from '../../images/main.png';
 import { Mail, Instagram, Facebook } from 'react-feather'; // Import Mail and Instagram icons
 import styles from './Navbar.module.css';
 
-const companyEmail = "mailto:your_email@example.com";
-const facebookLink = "https://www.facebook.com/your_facebook_page";
-const instagramLink = "https://www.instagram.com/your_instagram_account";
-
+const companyEmail = "mailto:thesaltycurmudgeons@gmail.com";
+const facebookLink = "https://www.facebook.com/thesaltycurmudgeons";
+const instagramLink = "https://www.instagram.com/thesaltycurmudgeons/
 
 const Navbar: React.FC = () => {
   const [menuIcon, setIcon] = useState(false);
