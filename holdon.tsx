@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logoImage from '../../images/cover.png';
+import logoImage from '../../images/main.png';
 import styles from './Main.module.css';
 
 

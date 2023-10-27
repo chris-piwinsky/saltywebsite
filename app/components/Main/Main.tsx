@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logoImage from '../../images/cover.png';
+import logoImage from '../../images/main.png';
 import styles from './Main.module.css';
 
 const Main = () => {
@@ -12,7 +12,6 @@ const Main = () => {
             <p className={`${styles.comingSoon}`}>
               Coming THIS NOVEMBER to a podcast near you
             </p>
-            <h1 className={`${styles.myHeading} ${styles.podcastHeading}`}>The Salty Curmudgeons</h1>
             <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>
               Three entertaining guys sharing life experiences and thoughts on culture, lifestyle, current events, and sports.
             </p>

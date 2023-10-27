@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import coverImage from '../images/cover.png';
+import coverImage from '../images/main.png';
 import styles from './About.module.css'; // Import the CSS module
 import Layout from '../components/Layout/Layout';
 
