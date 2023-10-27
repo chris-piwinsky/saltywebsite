@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import coverImage from '../images/main.png';
+import blazeimage from '../images/blaze.png';
+import riptideimage from '../images/riptide.png';
+import killjoyimage from '../images/killjoy.png';
 import styles from './About.module.css'; // Import the CSS module
 import Layout from '../components/Layout/Layout';
 
@@ -13,7 +15,7 @@ const About: React.FC = () => {
                     <div className={styles.characterContent}>
                         <div className={styles.characterImage}>
                             <Image
-                                src={coverImage}
+                                src={riptideimage}
                                 alt="Riptide"
                                 width={600}
                                 height={400}
@@ -35,7 +37,7 @@ const About: React.FC = () => {
                     <div className={styles.characterContent}>
                         <div className={styles.characterImage}>
                             <Image
-                                src={coverImage}
+                                src={blazeimage}
                                 alt="Blaze"
                                 width={600}
                                 height={400}
@@ -57,7 +59,7 @@ const About: React.FC = () => {
                     <div className={styles.characterContent}>
                         <div className={styles.characterImage}>
                             <Image
-                                src={coverImage}
+                                src={killjoyimage}
                                 alt="KillJoy"
                                 width={600}
                                 height={400}
