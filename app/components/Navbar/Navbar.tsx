@@ -72,9 +72,9 @@ const Navbar: React.FC = () => {
 
         {/* Smaller Screen navbar */}
         <div className={menuIcon ?
-          'md:hidden absolute top-[100px] right-0 bottom-0 left-0 flex flex-col justify-center items-center w-full h-screen bg-slate-800 text-white ease-in duration-300'
+          'md:hidden fixed top-0 right-0 bottom-0 left-0 flex flex-col justify-start items-center w-full h-screen bg-slate-800 text-white ease-in duration-300 overflow-y-auto'
           :
-          'md:hidden absolute top-[100px] right-0 left-[-100%] flex flex-col justify-center items-center w-full h-screen bg-slate-800 text-white ease-in duration-300'
+          'md:hidden fixed top-0 right-0 left-[-100%] flex flex-col justify-center items-center w-full h-screen bg-slate-800 text-white ease-in duration-300'
         }>
           <span className='font-extrabold text-3x1 md:text-2x1 xl:text-3x1 uppercase'>
             <Image
