@@ -3,6 +3,7 @@ import Image from 'next/image';
 import logoImage from '../../images/cover.png';
 import styles from './Main.module.css';
 
+
 const Main = () => {
   return (
     <main className="page">
@@ -15,7 +16,10 @@ const Main = () => {
             </p>
           </div>
           <div className={`${styles.podcastSection}`}>
-            <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>Find us on:</p>
+            <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>
+              Find us on:
+            </p>
+
             <ul>
               <li>
                 <a href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">
