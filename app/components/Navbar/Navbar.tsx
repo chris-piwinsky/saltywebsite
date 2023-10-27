@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
     <header className=' bg-slate-500  w-full ease-in duration-300 fixed top-0 left-0 z-10'>
       <nav className='max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4'>
         <div>
-          <Link href="/" onClick={handleSmallerScreenNavigation}>
+          <Link href="./" onClick={handleSmallerScreenNavigation}>
             <span className='font-extrabold text-3x1 md:text-2x1 xl:text-3x1 uppercase'>
               <Image
                 src={navImage}
@@ -41,10 +41,10 @@ const Navbar: React.FC = () => {
         {/* Centered Navigation Links */}
         <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
-            <Link href="/">Home</Link>
+            <Link href="./">Home</Link>
           </li>
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
-            <Link href="/about">The Curmudgeons</Link>
+            <Link href="./about">The Curmudgeons</Link>
           </li>
         </ul>
 
@@ -80,10 +80,10 @@ const Navbar: React.FC = () => {
           <div>
             <ul className='uppercase font-bold text-2xl'>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
-                <Link href="/">Home</Link>
+                <Link href="./">Home</Link>
               </li>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
-                <Link href="/about">The Curmudgeons</Link>
+                <Link href="./about">The Curmudgeons</Link>
               </li>
             </ul>
           </div>
