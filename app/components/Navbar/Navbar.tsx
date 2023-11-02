@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Link from 'next/link';
 import Image from 'next/image';
-import navImage from '../../images/main.png';
+import navImage from '../../images/navbar.png';
 import { Mail, Instagram, Facebook } from 'react-feather'; // Import Mail and Instagram icons
 import styles from './Navbar.module.css';
 
