@@ -45,6 +45,9 @@ const Navbar: React.FC = () => {
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="./about">The Curmudgeons</Link>
           </li>
+          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
+            <Link href="./episodes">Episodes</Link>
+          </li>
         </ul>
 
         <div className='hidden md:flex'>
@@ -91,6 +94,9 @@ const Navbar: React.FC = () => {
               </li>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
                 <Link href="./about">The Curmudgeons</Link>
+              </li>
+              <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
+                <Link href="./episodes">Episodes</Link>
               </li>
             </ul>
           </div>
