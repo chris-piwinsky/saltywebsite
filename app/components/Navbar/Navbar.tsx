@@ -40,13 +40,13 @@ const Navbar: React.FC = () => {
         {/* Centered Navigation Links */}
         <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
-            <Link href="./">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
-            <Link href="./about">The Curmudgeons</Link>
+            <Link href="/about">The Curmudgeons</Link>
           </li>
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
-            <Link href="./episodes">Episodes</Link>
+            <Link href="/episodes">Episodes</Link>
           </li>
         </ul>
 
@@ -90,13 +90,13 @@ const Navbar: React.FC = () => {
           <div>
             <ul className='uppercase font-bold text-2xl'>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
-                <Link href="./">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
-                <Link href="./about">The Curmudgeons</Link>
+                <Link href="/about">The Curmudgeons</Link>
               </li>
               <li onClick={handleSmallerScreenNavigation} className='py-5 hover:text-[#ff5722] cursor-pointer'>
-                <Link href="./episodes">Episodes</Link>
+                <Link href="/episodes">Episodes</Link>
               </li>
             </ul>
           </div>
