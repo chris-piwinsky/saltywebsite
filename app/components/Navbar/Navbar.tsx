@@ -9,7 +9,7 @@ import { Mail, Instagram, Facebook } from 'react-feather'; // Import Mail and In
 import styles from './Navbar.module.css';
 
 const companyEmail = "mailto:thesaltycurmudgeons@gmail.com";
-const facebookLink = "https://www.facebook.com/thesaltycurmudgeons";
+const facebookLink = "https://www.facebook.com/profile.php?id=61552781980490&mibextid=LQQJ4d";
 const instagramLink = "https://www.instagram.com/thesaltycurmudgeons";
 
 const Navbar: React.FC = () => {
