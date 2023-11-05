@@ -21,7 +21,7 @@ const Main = () => {
             <div className={styles.platformLinks}>
               <a href="https://link-to-apple-podcasts.com">Apple</a>
               <a href="https://open.spotify.com/show/2aV6G4COFFHBCZC3DowS2E?si=f377c81eedf1463d">Spotify</a>
-              <a href="https://link-to-amazon-music.com">Amazon</a>
+              <a href="https://music.amazon.com/podcasts/6319f8ad-470d-489b-af0b-f2f2a8a654f1/the-salty-curmudgeons">Amazon</a>
             </div>
           </div>
         </div>
