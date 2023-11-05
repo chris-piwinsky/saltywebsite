@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
-import Posts from "../components/Posts"
+import RssFeed from '../components/RssFeed/RssFeed';
 
 const About: React.FC = () => {
     return (
         <Layout>
-            <Posts />
+            <RssFeed />
         </Layout>
     );
 };

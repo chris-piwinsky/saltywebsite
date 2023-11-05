@@ -88,3 +88,12 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
 }
 
+.platformLinks {
+  display: flex;
+  gap: 10px; /* Adjust the gap to control the spacing between links */
+}
+
+.platformLink {
+  text-decoration: none;
+  color: #0070f3;
+}
