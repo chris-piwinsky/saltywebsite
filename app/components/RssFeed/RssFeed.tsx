@@ -2,7 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import Parser from 'rss-parser';
+import Image from 'next/image';
 import styles from './RssFeed.module.css'; // Import a CSS module for styling
+import episodeImage from '../../images/episodes.png'; // Import the image you want to use
 
 // Define an interface for RSS feed items
 interface FeedItem {
@@ -34,6 +36,13 @@ const RssFeed: React.FC = () => {
 
   return (
     <div className={styles.centeredRssFeedContainer}> {/* Apply CSS class for styling */}
+      <Image
+        src={episodeImage}
+        alt="Logo"
+        className={styles.episodeImage}
+        width={200}
+        height={100}
+      />
       <h1 className={styles.rssFeedTitle}>Current Episodes</h1>
       <ul className={styles.rssFeedList}>
         {feedItems.map((item, index) => (

@@ -10,18 +10,20 @@ const Main = () => {
         <div className={`md:w-1/2 md:pl-8 ${styles.textContainer}`}>
           <div>
             <p className={`${styles.comingSoon}`}>
-              Curmudgeons are LIVE!
+              Now LIVE on your favortie podcast platform!
             </p>
             <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>
               Not afraid to speak their minds, the Salty Curmudgeons share their wisdom & thoughts on culture, lifestyle, current events, and sports. Sometimes controversial and always entertaining, our conversations are geared to make you laugh, think, and sometimes feel a little salty!
             </p>
           </div>
           <div className={`${styles.podcastSection}`}>
-            <h2>Listen to us on these platforms:</h2>
-            <div className={styles.platformLinks}>
-              <a href="https://link-to-apple-podcasts.com">Apple</a>
-              <a href="https://open.spotify.com/show/2aV6G4COFFHBCZC3DowS2E?si=f377c81eedf1463d">Spotify</a>
-              <a href="https://music.amazon.com/podcasts/6319f8ad-470d-489b-af0b-f2f2a8a654f1/the-salty-curmudgeons">Amazon</a>
+            <div className={styles.platformBox}>
+              <p className={styles.platformText}>Listen to us on these platforms:</p>
+              <ul className={styles.platformList}>
+                <li><a href="https://open.spotify.com/show/2aV6G4COFFHBCZC3DowS2E?si=f377c81eedf1463d">Spotify</a></li>
+                <li><a href="https://link-to-amazon-music.com">Amazon</a></li>
+                <li><a href="https://podcast-index.org">Podcast Index</a></li>
+              </ul>
             </div>
           </div>
         </div>
