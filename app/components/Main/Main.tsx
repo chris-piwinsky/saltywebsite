@@ -21,8 +21,8 @@ const Main = () => {
               <p className={styles.platformText}>Listen to us on these platforms:</p>
               <ul className={styles.platformList}>
                 <li><a href="https://open.spotify.com/show/2aV6G4COFFHBCZC3DowS2E?si=f377c81eedf1463d">Spotify</a></li>
-                <li><a href="https://link-to-amazon-music.com">Amazon</a></li>
-                <li><a href="https://podcast-index.org">Podcast Index</a></li>
+                <li><a href="https://music.amazon.com/podcasts/6319f8ad-470d-489b-af0b-f2f2a8a654f1/the-salty-curmudgeons">Amazon</a></li>
+                <li><a href="https://podcastindex.org/podcast/6672725">Podcast Index</a></li>
               </ul>
             </div>
           </div>
