@@ -10,7 +10,7 @@ const Main = () => {
         <div className={`md:w-1/2 md:pl-8 ${styles.textContainer}`}>
           <div>
             <p className={`${styles.comingSoon}`}>
-              Now LIVE on your favortie podcast platform!
+              Now LIVE on your favorite podcast platform!
             </p>
             <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>
               Not afraid to speak their minds, the Salty Curmudgeons share their wisdom & thoughts on culture, lifestyle, current events, and sports. Sometimes controversial and always entertaining, our conversations are geared to make you laugh, think, and sometimes feel a little salty!
