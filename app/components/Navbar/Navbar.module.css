@@ -1,23 +1,8 @@
+.navbar {
+  z-index: 1;
+}
 .navbarLogo {
   max-width: 100px;
   margin-right: 20px;
 }
 
-/* NavLinks.module.css */
-
-.navLinks {
-  display: flex;
-  list-style: none;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 20px;
-  color: #333; /* Set your default text color here */
-}
-
-.navLinks li {
-  margin-right: 1rem;
-}
-
-.navLinks li:hover {
-  color: red;
-}

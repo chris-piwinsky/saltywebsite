@@ -5,24 +5,22 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Link from 'next/link';
 import Image from 'next/image';
 import navImage from '../../images/main.png';
-import { Mail, Instagram, Facebook } from 'react-feather'; // Import Mail and Instagram icons
+import { Mail, Instagram, Facebook } from 'react-feather';
 import styles from './Navbar.module.css';
-import MarqueeBar from '../MarqueeBar/MarqueeBar';
 
 const companyEmail = "mailto:thesaltycurmudgeons@gmail.com";
 const facebookLink = "https://www.facebook.com/profile.php?id=61552781980490&mibextid=LQQJ4d";
 const instagramLink = "https://www.instagram.com/thesaltycurmudgeons";
 
 const Navbar: React.FC = () => {
-  const [menuIcon, setIcon] = useState(false);
+  const [menuIcon, setMenuIcon] = useState(false);
 
   const handleSmallerScreenNavigation = () => {
-    setIcon(!menuIcon);
+    setMenuIcon(!menuIcon);
   };
 
-
   return (
-    <header className=' bg-slate-500  w-full ease-in duration-300 fixed top-0 left-0 z-10'>
+    <header className='bg-slate-500 w-full ease-in duration-300 fixed top-0 left-0 z-1'>
       <nav className='max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4'>
         <div>
           <Link href="./" onClick={handleSmallerScreenNavigation}>
@@ -38,15 +36,15 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
 
-        {/* Centered Navigation Links */}
-        <ul className={styles.navLinks}>
-          <li>
+ {/* Centered Navigation Links */}
+ <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
+          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="/about">The Curmudgeons</Link>
           </li>
-          <li>
+          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="/episodes">Episodes</Link>
           </li>
         </ul>
@@ -64,14 +62,14 @@ const Navbar: React.FC = () => {
             </a>
           </div>
         </div>
-        ≈
-        {/* smaller screens - navigation icons */}
+
+        {/* Smaller screens - navigation icons */}
         <div onClick={handleSmallerScreenNavigation} className='flex md:hidden'>
-          {menuIcon ?
-            (<AiOutlineClose size={25} className='text-[#ff5722]' />)
-            :
-            (<AiOutlineMenu size={25} className='text-[ff5722]' />)
-          }
+          {menuIcon ? (
+            <AiOutlineClose size={25} className='text-[#ff5722]' />
+          ) : (
+            <AiOutlineMenu size={25} className='text-[#ff5722]' />
+          )}
         </div>
 
         {/* Smaller Screen navbar */}
@@ -114,10 +112,7 @@ const Navbar: React.FC = () => {
             </a>
           </div>
         </div>
-
-
       </nav>
-      <MarqueeBar />
     </header>
   );
 };
