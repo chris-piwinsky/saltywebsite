@@ -17,6 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <div className={styles.contentContainer}>
         <div className={styles.centeredContent}>{children}</div>
       </div>
+      <MarqueeBar />
       <Footer />
     </div>
   );

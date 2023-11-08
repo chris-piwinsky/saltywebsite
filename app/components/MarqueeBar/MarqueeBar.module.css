@@ -1,6 +1,5 @@
-/* MarqueeBar.module.css */
 .marqueeContainer {
-    z-index: 2;
+    background-color: slategray;
 }
 .marqueeLink {
     color: #00aaff; /* Updated link color for a brighter appearance */
@@ -23,6 +22,9 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Rest of your existing CSS for .marqueeLink, .linkSeparator, etc. */
+
 
 .linkSeparator {
     font-weight: bold;
