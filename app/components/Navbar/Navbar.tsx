@@ -7,6 +7,7 @@ import Image from 'next/image';
 import navImage from '../../images/main.png';
 import { Mail, Instagram, Facebook } from 'react-feather'; // Import Mail and Instagram icons
 import styles from './Navbar.module.css';
+import MarqueeBar from '../MarqueeBar/MarqueeBar';
 
 const companyEmail = "mailto:thesaltycurmudgeons@gmail.com";
 const facebookLink = "https://www.facebook.com/profile.php?id=61552781980490&mibextid=LQQJ4d";
@@ -38,14 +39,14 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Centered Navigation Links */}
-        <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
-          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
+        <ul className={styles.navLinks}>
+          <li>
             <Link href="/">Home</Link>
           </li>
-          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
+          <li>
             <Link href="/about">The Curmudgeons</Link>
           </li>
-          <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
+          <li>
             <Link href="/episodes">Episodes</Link>
           </li>
         </ul>
@@ -63,7 +64,7 @@ const Navbar: React.FC = () => {
             </a>
           </div>
         </div>
-
+        ≈
         {/* smaller screens - navigation icons */}
         <div onClick={handleSmallerScreenNavigation} className='flex md:hidden'>
           {menuIcon ?
@@ -116,6 +117,7 @@ const Navbar: React.FC = () => {
 
 
       </nav>
+      <MarqueeBar />
     </header>
   );
 };

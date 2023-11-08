@@ -1,9 +1,5 @@
 /* MarqueeBar.module.css */
 
-.marqueeContainer {
-    background-color: slategray;
-    padding: 10px;
-}
 
 .marqueeLink {
     color: #00aaff; /* Updated link color for a brighter appearance */
@@ -14,7 +10,7 @@
 }
 
 .marqueeLink:hover {
-    color: #fff;
+    color: red;
 }
 
 .linkSpacer {

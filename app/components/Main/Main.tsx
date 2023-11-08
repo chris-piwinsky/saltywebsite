@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import logoImage from '../../images/main.png';
 import styles from './Main.module.css';
+import MarqueeBar from '../MarqueeBar/MarqueeBar';
 
 const Main = () => {
   return (
@@ -10,21 +11,11 @@ const Main = () => {
         <div className={`md:w-1/2 md:pl-8 ${styles.textContainer}`}>
           <div>
             <p className={`${styles.comingSoon}`}>
-              Now LIVE on your favorite podcast platform!
+              Now LIVE on your favorite podcast platforms!
             </p>
             <p className={`${styles.myParagraph} ${styles.podcastDescription}`}>
               Not afraid to speak their minds, the Salty Curmudgeons share their wisdom & thoughts on culture, lifestyle, current events, and sports. Sometimes controversial and always entertaining, our conversations are geared to make you laugh, think, and sometimes feel a little salty!
             </p>
-          </div>
-          <div className={`${styles.podcastSection}`}>
-            <div className={styles.platformBox}>
-              <p className={styles.platformText}>Listen to us on these platforms:</p>
-              <ul className={styles.platformList}>
-                <li><a href="https://open.spotify.com/show/2aV6G4COFFHBCZC3DowS2E?si=f377c81eedf1463d">Spotify</a></li>
-                <li><a href="https://music.amazon.com/podcasts/6319f8ad-470d-489b-af0b-f2f2a8a654f1/the-salty-curmudgeons">Amazon</a></li>
-                <li><a href="https://podcastindex.org/podcast/6672725">Podcast Index</a></li>
-              </ul>
-            </div>
           </div>
         </div>
         <div className={`md:w-1/2 ${styles.imageContainer}`}>
