@@ -3,6 +3,7 @@ import Marquee from 'react-fast-marquee';
 import styles from './MarqueeBar.module.css';
 
 const links = [
+  { href: "https://podcasts.apple.com/us/podcast/the-salty-curmudgeons/id1715042963", text: "Apple" },
   { href: "https://open.spotify.com/show/2aV6G4COFFHBCZC3DowS2E?si=f377c81eedf1463d", text: "Spotify" },
   { href: "https://music.amazon.com/podcasts/6319f8ad-470d-489b-af0b-f2f2a8a654f1/the-salty-curmudgeon", text: "Amazon" },
   { href: "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMjU4OTQ4LnJzcw==", text: "Google" },
