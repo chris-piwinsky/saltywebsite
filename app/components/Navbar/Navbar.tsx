@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
             <a href={instagramLink} target="_blank" rel="noopener noreferrer" className='py-5 hover-red-text'>
               <Instagram size={25} />
             </a>
-            <a href={twitterLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#ff5722]'>
+            <a href={twitterLink} target="_blank" rel="noopener noreferrer" className='py-5 hover-red-text>
               <Twitter size={25} />
             </a>
           </div>
