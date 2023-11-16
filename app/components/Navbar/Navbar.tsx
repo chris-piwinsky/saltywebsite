@@ -5,12 +5,13 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import Link from 'next/link';
 import Image from 'next/image';
 import navImage from '../../images/main.png';
-import { Mail, Instagram, Facebook } from 'react-feather';
+import { Mail, Instagram, Facebook, Twitter } from 'react-feather';
 import styles from './Navbar.module.css';
 
 const companyEmail = "mailto:thesaltycurmudgeons@gmail.com";
 const facebookLink = "https://www.facebook.com/profile.php?id=61552781980490&mibextid=LQQJ4d";
 const instagramLink = "https://www.instagram.com/thesaltycurmudgeons";
+const twitterLink = "https://twitter.com/Saltycurmudge";
 
 const Navbar: React.FC = () => {
   const [menuIcon, setMenuIcon] = useState(false);
@@ -36,8 +37,8 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
 
- {/* Centered Navigation Links */}
- <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
+        {/* Centered Navigation Links */}
+        <ul className='hidden md:flex uppercase font-semibold text-1x1 lg:text-[20px] text-slate-800 flex-grow justify-center'>
           <li className='mr-4 lg:mr-8 hover:text-[#ff5722]'>
             <Link href="/">Home</Link>
           </li>
@@ -59,6 +60,9 @@ const Navbar: React.FC = () => {
             </a>
             <a href={instagramLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#ff5722]'>
               <Instagram size={25} />
+            </a>
+            <a href={twitterLink} target="_blank" rel="noopener noreferrer" className='mr-5 text-slate-800 hover:text-[#ff5722]'>
+              <Twitter size={25} />
             </a>
           </div>
         </div>

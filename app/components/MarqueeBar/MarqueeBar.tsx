@@ -15,6 +15,10 @@ const links = [
   { href: "https://podcastaddict.com/podcast/the-salty-curmudgeons/4719833", text: "Podcast Addict" },
   { href: "https://www.deezer.com/us/show/1000410521", text: "Deezer" },
   { href: "https://player.fm/series/the-salty-curmudgeons", text: "Player FM" },
+  { href: "https://castro.fm/podcast/a66de547-cb8b-493d-99ce-5fea95fe660f", text: "Castro" },
+  { href: "https://castbox.fm/channel/The-Salty-Curmudgeons-id5666594?country=us", text: "Castbox" },
+  { href: "https://www.podfriend.com/podcast/the-salty-curmudgeons/", text: "Podfriend" },
+  { href: "https://goodpods.com/podcasts/the-salty-curmudgeons-286175", text: "Goodpods" },
 
 
   // Add more links as needed
